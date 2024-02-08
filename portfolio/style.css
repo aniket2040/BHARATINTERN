@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: #813384;
+}
+.profile-image {
+    position: absolute;
+    top: 55px;
+    right: 04px;
+}
+
+.profile-image img {
+    width: 400px; /* Adjust the width as needed */
+    border-radius: 200%; /* Make the image round */
+    border: 10px solid #0c0c0c; /* Add a white border around the image */
+    box-shadow: 0 0 10px rgba(126, 124, 124, 0.1); /* Add a shadow effect */
+    
+}
+
+
+header {
+    background-color: #2c1fdc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2c1fdc;
+    color: #fff;
+    padding: 02px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
